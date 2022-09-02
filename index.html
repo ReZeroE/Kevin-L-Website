@@ -61,13 +61,15 @@
       <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
     </div>
 
-
-
     <!-- About Section -->
     <section id="about">
       <!-- User Introduction-->
       <div class="user-details hideme">
-        <h1><span id="text-decor">｢</span> About Me <span id="text-decor">｣</span></h1>
+        <h1>
+          <span id="text-decor">｢
+            <h4 class="animate-charcter"> About Me</h4>
+          <span id="text-decor">｣
+        </h1>
         <picture>
           <img
             src="./assets/img/jpg/yulong_liu_img.jfif"
@@ -78,13 +80,12 @@
           />
         </picture>
         <p>
-          I am a Computer Science Junior in the Honors College of Engineering at Virginia Polytechnic Institute and 
-          State University. Currently, I am working as a software developer on the AgroSeek research team to build a 
-          system for computational analysis on environmental metagenomic data and its associated metadata. I am also 
-          a proud member of the NASA sounding rockets program – RockSat-X at Virginia Tech, where I am responsible 
+          I am a Computer Science senior in the Honors College of Engineering at Virginia Polytechnic Institute and 
+          State University. Currently, I'm working as a Systems Engineer Intern at Wind River Systems on WR Linux LTS22.
+          I am also a proud member of the NASA sounding rockets program – RockSat-X at Virginia Tech, where I am responsible 
           for designing the software to record and analyze ADS-B signals and attitude data through NASA’s telemetry 
           interface and optimizing the ADS-B algorithms. 
-          I am interested in exploring the fields of Software Engineering, Data Science, and Machine Learning, and I am open 
+          I am interested in exploring the fields of Systems Design, Cloud Software Development, and Computer Networks, and I am open 
           to opportunities for the same.
         </p>
       </div>
@@ -98,29 +99,57 @@
     <!-- experience section -->
     <section id="experience">
       <div class="user-details hideme">
-        <h1><span id="text-decor">｢</span> Experience <span id="text-decor">｣</span></h1>
+        <h1><span id="text-decor">｢<h4 class="animate-charcter"> Experience</h4>｣</span></h1>
       </div>
       
+
+      <div class="user-experience hideme">
+        <h3><a href="https://www.windriver.com/" target="_blank">🞛 Wind River Systems</a></h3>
+        <h4> - Systems Engineer Intern</h4>
+        <p>
+          •	Designed and programmed a hyper-efficient SQL database migration and validation system in Python for WR’s Security Response Tool, improving the performance by reducing 89% of the original runtime. (Supports PostgreSQL, SQLite, MySQL, MariaDB)<br>
+          •	Configured Apache as a reverse proxy through Puppet to enable TLS1.2 for WR’s internal web applications.<br>
+          •	Built and maintained multiple Django servers and optimized the NIST CVE retrieval and linkage process with NVD’s vulnerability API.<br>
+          •	Delivered utilities to fix incorrect SQL database foreign key linkages and deployed Cron jobs to schedule weekly database updates.<br>
+          •	Built WR Linux LTS22 with BitBake, reviewed and resolved userspace and kernel defects with NA’s WR Linux Team.<br>
+        </p>
+      </div>
+
+      <div class="user-experience hideme">
+        <h3><a href="https://www.livestockcity.com/" target="_blank">🞛 LivestockCity</a></h3>
+        <h4> - Software Developer Intern</h4>
+        <p>
+          •	Developed the followers and following feature in Django applications and configured the corresponding PostgreSQL databases.<br>
+          •	Delivered Python applications to automate end-user feedback and requests categorization with AWS Amazon Comprehend (NLP).<br>
+          •	Implemented the Django REST Framework in internal webapps to take advantage of DRF’s data rendering tools, Serializes, and ViewSets.<br> 
+          •	Reduced ticket workflow coverage by 60% by actively completing tickets with hard deadlines.<br>
+          •	Transitioned 100+ models, Viewsets, Serializers and endpoints from Oracle DB to Django through Docker.<br>          
+        </p>
+      </div>
+
       <div class="user-experience hideme">
         <h3><a href="https://agroseek.cs.vt.edu/" target="_blank">🞛 AgroSeek Research</a></h3>
-        <h4>Computer Science Research Assistant</h4>
-        <p>• Programmed back-end applications to retrieve, assemble, and annotate raw genome sequence data in Python and Java.<br>
+        <h4> - Computer Science Research Assistant</h4>
+        <p>
+          •	Developed a parallel-processing pipeline in Python with Luigi-python to schedule contig assembly tasks based on the CPU load.<br>
+          •	Built a production-level Python applications to retrieve, assemble, and annotate raw genome sequence data with NCBI’s SRA Toolkit.<br>
+          •	Maintained and regularly updated the front-end WordPress PHP scripts and the associated MySQL database.<br>
           • Contributed to genetic sequence analysis and the creation of the genetic co-occurrence network.<br>
-          • Maintained and regularly updated the front-end WordPress PHP scripts and the associated MySQL database.<br>
-          • Worked closely with Ph.D. students to develop a system for computational analysis of environmental metagenomic data.</p>
+          • Worked closely with Ph.D. students to develop a system for computational analysis of environmental metagenomic data.<br>
+        </p>
       </div>
 
       <div class="user-experience hideme">
-        <h3><a href="https://genshin.hoyoverse.com/en/" target="_blank">🞛 Genshin Impact</a></h3>
-        <h4>Gacha Hell Enjoyer</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsa enim suscipit delectus dolorem consectetur iste aperiam illo nam ipsam. Atque culpa natus nobis nam eaque quam expedita sunt quod!</p>
+        <h3><a href="https://spacegrant.colorado.edu/national-programs/rs-x-home" target="_blank">🞛 RockSat-X Program</a></h3>
+        <h4> - Software Group Member</h4>
+        <p>
+          •	Designed Python software to record and analyze ADS-B signals and attitude data transmitted through NASA’s telemetry interface.<br>
+          •	Programmed C++ software for the flight computer to process IMU, acceleration, and pressure sensor data.<br>
+          •	Optimized past ADS-B algorithms in C such that the largest amount of data may be transmitted without saturating the bandwidth.<br>
+          •	Tested subsystems (sensors) C++ software to ensure the correct logging of raw in-phase and quadrature data into the storage device.<br>
+        </p>
       </div>
 
-      <div class="user-experience hideme">
-        <h3><a href="https://www.spacex.com/" target="_blank">🞛 SpaceX</a></h3>
-        <h4>Chief Executive Janitor (CEJ)</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsa enim suscipit delectus dolorem consectetur iste aperiam illo nam ipsam. Atque culpa natus nobis nam eaque quam expedita sunt quod!</p>
-      </div>
 
       <!-- add more experiences as needed -->
 
@@ -131,11 +160,11 @@
     <!-- Projects Section -->
     <section id="projects">
       <div class="user-details hideme">
-        <h1><span id="text-decor">｢</span> Projects <span id="text-decor">｣</span></h1>
+        <h1><span id="text-decor">｢<h4 class="animate-charcter"> Projects</h4>｣</span></h1>
       </div>
 
       <!-- User Project #1: Personal Résumé Website -->
-      <div class="user-projects hideme">
+      <div class="user-projects-top hideme">
         <div class="images-right">
           <picture>
             <source type="image/webp" srcset="./assets/img/webp/anilistpython.webp" alt="AnilistPython Library" />
@@ -143,32 +172,24 @@
           </picture>
         </div>
         <div class="contents" style="text-align: center">
-          <h3><a href="https://agroseek.cs.vt.edu/" style="text-decoration: none;">☆ AnilistPython Library ☆</a></h3>
+          <h3><a href="https://agroseek.cs.vt.edu/" style="text-decoration: none;"> AnilistPython Library </a></h3>
 
-          <!-- <div>
-            &nbsp;
-            <img
-              height="32"
-              width="32"
-              src="https://unpkg.com/simple-icons@3.4.0/icons/python.svg"
-              style="filter: invert(24%) sepia(14%) saturate(2270%) hue-rotate(222deg) brightness(102%) contrast(90%)"
-            />
-            &nbsp;
-            <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
-          </div> -->
 
           <p style="text-align: justify">
-            I developed and designed a website using ReactJS and Bootstrap, hosted on Github Pages, to showcase my web
-            presence, story, work experience, education, projects, and achievements in an interactive and
-            visually-appealing format. 
+            The AniListPython library (anilist.co APIv2 wrapper) is the first Python utility that allows users to search up and retrieve anime, manga, animation studio, and character information through the GraphQL API. The AnilistPython Library has been downloaded over 64,000 times by the community and provides upstream support for various Discord-based applications.<br>
           </p>
-          <a class="project-link" target="_blank" href="https://www.adityavsingh.com/">View on GitHub</a>
+          <a class="project-link" target="_blank" href="https://github.com/ReZeroE/AnilistPython">View on GitHub</a>
         </div>
       </div>
 
-      <div id="project_desc">
-        <p>Hello world this is a sentence. I created a two-player online dice-based board game with a theme loosely set around Dungeons & Dragons. It was developed as a submission for Penn Apps XXI, using ReactJS and CSS Grid Layouts for design and hosted on GitHub Pages.</p>
+      <div class="proj_desc">
+        <p>
+          This is a test sentence. Temp
+        </p>
       </div>
+
+
+      
 
       <div id="border"></div>
 
@@ -181,7 +202,7 @@
           </picture>
         </div>
         <div class="contents-right" style="text-align: center">
-          <h3>Perpetual Crusades</h3>
+          <h3>SQL Variants Migration Tool (SQLvmt)</h3>
           <!-- <img
             height="32"
             width="32"
@@ -219,7 +240,7 @@
           </picture>
         </div>
         <div class="contents" style="text-align: center">
-          <h3>COVID-19 Tracker App</h3>
+          <h3>Personal Web Server</h3>
           <div>
             <!-- <img
               height="32"
@@ -254,7 +275,7 @@
           </picture>
         </div>
         <div class="contents-right" style="text-align: center">
-          <h3>Valuto: Account Management System</h3>
+          <h3>Generic Multithreading Pool</h3>
           <div>
             <!-- <img
               height="32"
@@ -274,7 +295,108 @@
           </a>
         </div>
       </div>
+
+      <div id="border"></div>
+
+      <!-- User Project #3: COVID-19 Tracker App -->
+      <div class="user-projects hideme">
+        <div class="images-right">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/COVID19-Tracker-App.webp" alt="COVID-19 Tracker App" />
+            <img alt="COVID-19 Tracker App" src="./assets/img/jpg/COVID19-Tracker-App.jpg" />
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>Re:Zero Webcam Security System</h3>
+          <div>
+            <!-- <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
+              style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)"
+            /> -->
+          </div>
+          <p style="text-align: justify">
+            I created a web application for tracking the spread of COVID-19. Using Johns Hopkins University Center For
+            Systems Science and Engineering API, the website processes the COVID-19 data to create statistical
+            projections through graphs and charts.
+          </p>
+          <a class="project-link" target="_blank" href="https://www.adityavsingh.com/covid19-tracker-app">
+            Check it out!
+          </a>
+        </div>
+      </div>
+
+      <div id="border"></div>
+
+      <!-- Use Project #4: Valuto: Account Management System -->
+      <div class="user-projects hideme">
+        <div class="images-left">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="./assets/img/webp/Valuto-Account-Management.webp"
+              alt="Valuto: Account Management System"
+            />
+            <img alt="Valuto: Account Management System" src="./assets/img/jpg/Valuto-Account-Management.jpg" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>NCBI Genetic Sequence Retriever</h3>
+          <div>
+            <!-- <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/cplusplus.svg"
+              style="filter: invert(22%) sepia(77%) saturate(1486%) hue-rotate(183deg) brightness(101%) contrast(103%)"
+            /> -->
+          </div>
+          <p style="text-align: justify">
+            I developed a CLI system for accounting management and financial statement maintenance. The purpose of the
+            system is to maintain a record of the funds received, used, disseminated and donated by an organization.
+            Details of transactions and maintenance of a budget and tallying of current balance/inventory in cash/kind
+            is incorporated in this system.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/AVS1508/Valuto-Account-Management-System">
+            Check it out!
+          </a>
+        </div>
+      </div>
+
+      <div id="border"></div>
+
+      <!-- User Project #3: COVID-19 Tracker App -->
+      <div class="user-projects hideme">
+        <div class="images-right">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/COVID19-Tracker-App.webp" alt="COVID-19 Tracker App" />
+            <img alt="COVID-19 Tracker App" src="./assets/img/jpg/COVID19-Tracker-App.jpg" />
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>Geographic Information Systems (GIS)</h3>
+          <div>
+            <!-- <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
+              style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)"
+            /> -->
+          </div>
+          <p style="text-align: justify">
+            I created a web application for tracking the spread of COVID-19. Using Johns Hopkins University Center For
+            Systems Science and Engineering API, the website processes the COVID-19 data to create statistical
+            projections through graphs and charts.
+          </p>
+          <a class="project-link" target="_blank" href="https://www.adityavsingh.com/covid19-tracker-app">
+            Check it out!
+          </a>
+        </div>
+      </div>
+
     </section>
+
+
 
     <section id="interests">
       <div class="interests hideme">
