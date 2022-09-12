@@ -41,7 +41,7 @@ section {
 }
 
 h1 {
-    margin: .5em 0;
+    margin: .67em 0;
     font-size: 2.5rem;
 }
 
@@ -4795,6 +4795,7 @@ h2,
 h3,
 h4,
 strong {
+    font-size: 1.5rem;
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
@@ -4806,12 +4807,10 @@ h2 {
     font-size: 2rem
 }
 
-h3 {
-    font-size: 1.5rem
-}
 
 h4 {
     font-size: 1rem;
+    margin-bottom: 0rem;
 }
 
 ol,
@@ -4824,7 +4823,7 @@ ol,
 p,
 ul {
     margin: 0.5em 0;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .proj_desc p {
@@ -4868,7 +4867,7 @@ a img {
 }
 
 .header .site-title {
-    font-size: 35px;
+    font-size: 20px;
     display: block;
     line-height: 1;
     color: #fff;
@@ -5038,7 +5037,7 @@ a img {
 }
 
 .user-projects {
-    margin-top: 120px;
+    margin-top: 60;
 }
 
 .user-projects img {
@@ -5142,7 +5141,7 @@ a img {
     }
 
     .images-right img {
-        margin-top: 3em;
+        margin-top: 0em;
         float: right
     }
 
@@ -5160,6 +5159,8 @@ a img {
     display: inline-block;
     margin: 10px 0;
     padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
     color: #cc1414;
     background-color: transparent;
     border: 1px solid #cc1414;
@@ -5216,7 +5217,7 @@ a img {
 }
 
 .user-experience p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .user-experience h3 {
@@ -5266,13 +5267,14 @@ a img {
 }
 
 #border {
-    width: 10%;
-    margin: 0px auto;
+    width: 30%;
+    margin: 40px auto;
     /* margin-bottom: 0px auto; */
     border-style: solid;
-    color: #FF1C00;
+    color: rgba(0,0,0,0.0);
 }
 
+  
 
 
 #interests {
